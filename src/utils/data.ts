@@ -100,6 +100,60 @@ const card = [
     site: "https://maps.app.goo.gl/RoRGJYadtWmiG2kz7",
     buttonText: "Ver Maps",
   },
+  {
+    title: "Guarda La Vieja",
+    description: "Bar",
+    image: ` <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3284.1229368344193!2d-58.4205346!3d-34.6010527!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca898f4c0149%3A0xd7bbdae926e33831!2sGuarda%20La%20Vieja!5e0!3m2!1sen!2ses!4v1707088748026!5m2!1sen!2ses"    width="100%" 
+    height="100%" 
+    style="max-width: 250px; max-height: 200px; display: flex; justify-content: center;"
+    allowfullscreen="none" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`,
+    site: "https://www.instagram.com/guarda.lavieja",
+    buttonText: "Ver Instagram",
+  },
+  {
+    title: "Musetta",
+    description: "Bar",
+    image: ` <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3284.1229368344193!2d-58.4205346!3d-34.6010527!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca89ad465c0f%3A0xf7805b8a011bbffd!2sMusetta!5e0!3m2!1sen!2ses!4v1707088685127!5m2!1sen!2ses"    
+    width="100%" height="100%" style="max-width: 250px; max-height: 200px; display: flex; justify-content: center;" allowfullscreen="none" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`,
+    site: "https://menu.maxirest.com/3123",
+    buttonText: "Ver Sitio Web",
+  },
+  {
+    title: "Kentucky",
+    description: "Pizzeria",
+    image: ` <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1642.0127161648154!2d-58.4167659!3d-34.6035184!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca8a41619359%3A0xe801554ca70e5a47!2sPizzeria%20Kentucky!5e0!3m2!1sen!2ses!4v1707088905339!5m2!1sen!2ses"    width="100%" height="100%" style="max-width: 250px; max-height: 200px; display: flex; justify-content: center;" allowfullscreen="none" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`,
+    site: "https://kentucky.com.ar/",
+    buttonText: "Ver Sitio Web",
+  },
+  {
+    title: "El Imperio",
+    description: "Pizzeria",
+    image: ` <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1642.016461122622!2d-58.4210288!3d-34.603329!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca63d039bb35%3A0xda370033a425ff0e!2sPizzer%C3%ADa%20Imperio%20(Medrano)!5e0!3m2!1sen!2ses!4v1707089007235!5m2!1sen!2ses"     
+    width="100%" height="100%" style="max-width: 250px; max-height: 200px; display: flex; justify-content: center;" allowfullscreen="none" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`,
+    site: "https://www.instagram.com/pizzeriaimperio1946/",
+    buttonText: "Ver Instagram",
+  },
+  {
+    title: "La Continental",
+    description: "Pizzeria",
+    image: `<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3284.0268401517774!2d-58.4169229!3d-34.6034828!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca8a0dcf8161%3A0xc5c939eeb8a80373!2sLa%20Continental!5e0!3m2!1sen!2ses!4v1707089074207!5m2!1sen!2ses"    width="100%" height="100%" style="max-width: 250px; max-height: 200px; display: flex; justify-content: center;" allowfullscreen="none" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`,
+    site: "https://www.lacontinental.com/",
+    buttonText: "Ver Sitio Web",
+  },
+  {
+    title: "Napoli vs Tucuman",
+    description: "Pizzeria",
+    image: ` <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1641.9129006937492!2d-58.4173604!3d-34.6085662!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb4b25bfb171%3A0xda17285501e757aa!2sNapoli%20vs%20Tucum%C3%A1n!5e0!3m2!1sen!2ses!4v1707089160960!5m2!1sen!2ses"    width="100%" height="100%" style="max-width: 250px; max-height: 200px; display: flex; justify-content: center;" allowfullscreen="none" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`,
+    site: "https://www.instagram.com/napolivstucuman",
+    buttonText: "Ver Instagram",
+  },
+  {
+    title: "Napoli vs Tucuman",
+    description: "Pizzeria",
+    image: `<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1642.0868151442041!2d-58.4104081!3d-34.5997707!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca8e6266fd0f%3A0x9be16c9d3924928!2sCoffee%20Bar%20Roma!5e0!3m2!1sen!2ses!4v1707089248055!5m2!1sen!2ses"      width="100%" height="100%" style="max-width: 250px; max-height: 200px; display: flex; justify-content: center;" allowfullscreen="none" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`,
+    site: "https://romadelabasto.com.ar/",
+    buttonText: "Ver Sitio Web",
+  },
 ];
 
 export { card };
