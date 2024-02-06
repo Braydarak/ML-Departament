@@ -36,12 +36,12 @@ import Navbar from "../components/elements/Navbar.astro";
     ) {
       document.documentElement.classList.add("dark");
       if (themeImage) {
-        themeImage.src = "/images/madero-night.jpg";
+        themeImage.src = "/images/madero-night.webp";
       }
     } else {
       document.documentElement.classList.remove("dark");
       if (themeImage) {
-        themeImage.src = "/images/madero-day.jpg";
+        themeImage.src = "/images/madero-day.webp";
       }
     }
 
@@ -54,32 +54,28 @@ import Navbar from "../components/elements/Navbar.astro";
             if (localStorage.getItem("appTheme") === "light") {
               doc.classList.add("dark");
               localStorage.setItem("appTheme", "dark");
-              // Cambia la fuente de la imagen para el tema oscuro
               if (themeImage) {
-                themeImage.src = "/images/madero-night.jpg";
+                themeImage.src = "/images/madero-night.webp";
               }
             } else {
               doc.classList.remove("dark");
               localStorage.setItem("appTheme", "light");
-              // Cambia la fuente de la imagen para el tema claro
               if (themeImage) {
-                themeImage.src = "/images/madero-day.jpg";
+                themeImage.src = "/images/madero-day.webp";
               }
             }
           } else {
             if (doc.classList.contains("dark")) {
               doc.classList.remove("dark");
               localStorage.setItem("appTheme", "light");
-              // Cambia la fuente de la imagen para el tema claro
               if (themeImage) {
-                themeImage.src = "/images/madero-day.jpg";
+                themeImage.src = "/images/madero-day.webp";
               }
             } else {
               doc.classList.add("dark");
               localStorage.setItem("appTheme", "dark");
-              // Cambia la fuente de la imagen para el tema oscuro
               if (themeImage) {
-                themeImage.src = "/images/madero-night.jpg";
+                themeImage.src = "/images/madero-night.webp";
               }
             }
           }
